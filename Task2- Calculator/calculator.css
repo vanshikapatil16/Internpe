@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	max-height: 100vh;
+}
+.container {
+	border-radius: 15px;
+	margin: 50px;
+	width: 429px;
+	margin-left: 410px;
+	background: #00004d;
+	padding: 10px;
+	padding-bottom: 30px;
+	border: 4px double #fff;
+}
+
+.header {
+	font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin: 10px;
+	font-weight: bolder;
+	color: #fff;
+	text-shadow: 1px 2px 1px #004d00;
+}
+hr {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+input[type=text] {
+	width: 400px;
+	font-family: inherit;
+	font-weight: bold;
+	margin-left: 5px;
+	padding: 15px 20px;
+	border-radius: 10px;
+	outline: none;
+	margin-bottom: 15px;
+	font-size: 20px;
+	background: #00004d;
+	text-align: right;
+	border: 1px solid #666666;
+	color: #fff;
+}
+input[type=text]:hover {
+	box-shadow: 1px 1px 3px 2px #666666;
+}
+input[type=button] {
+	font-size: 18px;
+	width: 89px;
+	padding: 12px;
+	margin: 7px 0;
+	margin-left: 8px;
+	background: #00004d;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	box-shadow: 1px 1px 3px 2px #666666;
+	cursor: pointer;
+}
+input[type=button]:hover {
+	background: #010146;
+}

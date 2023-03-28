@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<script type="text/javascript" src="calculator.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+	<div class="header">
+		<article>Calculator</article>
+		<hr>
+	</div>
+
+	<input type="text" id="result" placeholder="0"> <br>
+	<input type="button" value="AC" style="color: #8080ff;"  onclick="clr()">
+	<input type="button" value="Del" style="color: #8080ff;" onclick="deleteLast()">
+	<input type="button" value="." style="color: #8080ff;" onclick="dis('.')">
+	<input type="button" value="/" style="color: #8080ff;" onclick="dis('/')"> <br>
+	<input type="button" value="7" onclick="dis('7')">
+	<input type="button" value="8" onclick="dis('8')">
+	<input type="button" value="9" onclick="dis('9')">
+	<input type="button" value="x" style="color: #8080ff;" style="background: #ffe0b3;" onclick="dis('*')">
+	<input type="button" value="4" onclick="dis('4')">
+	<input type="button" value="5" onclick="dis('5')">
+	<input type="button" value="6" onclick="dis('6')">
+	<input type="button" value="-" style="color: #8080ff;" style="background: #ffe0b3;" onclick="dis('-')"> <br>
+	<input type="button" value="1" onclick="dis('1')">
+	<input type="button" value="2" onclick="dis('2')">
+	<input type="button" value="3" onclick="dis('3')">
+	<input type="button" value="+" style="color: #8080ff;" style="background: #ffe0b3;" onclick="dis('+')"> <br>
+	<input type="button" value="00" onclick="dis('00')">
+	<input type="button" value="0"  onclick="dis('0')">
+	<input type="button" value="=" style="color: #8080ff; width: 190px;" style="background: #e4b800;" onclick="calculate()" class="calculate">
+</div>
+
+</body>
+</html>
